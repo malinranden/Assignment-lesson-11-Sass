@@ -3,20 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/normalize.css">
     <link rel="stylesheet" href="/styles/index.css">
     <title>Document</title>
 </head>
 <body>
     
-    <footer></footer>
-    <article>
-        <div class="title-container">
-            <h4></h4>
-            <p></p>
+    <header>
+        <div class="logo-image">
+            <img src="/images/genesis-logo.png" alt="genesis-logo">
         </div>
-        <p class="quote"></p>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__li"><a class="nav__link" href="#">Projects</a></li>
+                <li class="nav__li"><a class="nav__link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article class="first-article">
+        <div class="first-title-container">
+            <h4 class="first-title-container__heading">Shooting Stars</h4>
+            <p class="first-title-container__info"> Hello, I’m Bakhtiyar Sattarov,
+                <span class="first-title-container__blue-words">product designer</span> with experience
+                in studios and startups</p>
+        </div>
+        <div class="quote">
+            <div class="quote__rectangle"></div>
+            <p class="quote__text">Design is about progress</p>
+        </div>
     </article>
+
     <div class="projects-container">
         <div class="img1"><img src="/images/img1.png" alt="image-project-1"></div>
         <div class="img2"><img src="/images/img2.png" alt="image-project-2"></div>

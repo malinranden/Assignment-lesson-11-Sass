@@ -1,0 +1,61 @@
+// @use 'fonts'; // (ger tillgångt till _fonts, men nedan måste man specifiera)
+
+$primary-text-color: #111111;
+$blue-text-color: #4A4FF2;
+$bold-font: 700;
+
+.first-article {
+    max-width: 100%;
+    width: 100%;
+    min-height: 251px;
+    height: 100%;
+    margin-top: 96px;
+    display: flex;
+    align-items: center;
+}
+.first-title-container {
+    width: 100%;
+    max-width: 635px;
+    min-height: 251px;
+    font-weight: $bold-font;
+    // margin-top: 96px;
+    &__heading {
+        color: $blue-text-color;
+        letter-spacing: -0.42px;
+        font-size: 22px;
+        
+    }
+    &__info {
+        color: $primary-text-color;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    &__blue-words {
+        color: $blue-text-color;
+    }
+    
+}
+.quote {
+    max-width: 212px;
+    width: 100%;
+    min-height: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 190px;
+    margin-top: 194px; 
+
+    &__rectangle {
+        width: 30px;
+        min-height: 2px;
+        background-color: $primary-text-color;
+        opacity: 50%;
+  
+        
+    }
+    &__text {
+        font-style: italic;
+        opacity: 60%;
+    }
+}

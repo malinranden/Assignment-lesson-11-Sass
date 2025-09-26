@@ -1,0 +1,13 @@
+@use 'fonts';
+
+@import 'header';
+@import 'article1home';
+
+body {
+    margin-right: 125px;
+    margin-left: 125px;
+    display: flex;
+    flex-direction: column;
+    font-family: fonts.$main-font;
+}
+// alternativ att få in font-family för hela projektet: antingen i * eller i body
