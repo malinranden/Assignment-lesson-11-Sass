@@ -1,0 +1,29 @@
+$bold-font: 700; 
+
+.second-article {
+    max-width: 100%;
+    width: 100%;
+    min-height: 106px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    &__text {
+        max-width: 635px;
+        width: 100%;
+        font-size: 28px;
+        font-weight: $bold-font;
+        line-height: 38px;
+        display: flex;
+    }
+    &__list {
+        max-width: 350px;
+        width: 100%;
+        max-height: 106px;
+        display: flex;
+    }
+}
+.second-article > div {
+    width: ;
+    height: 35.33px;
+}
