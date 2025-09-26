@@ -18,12 +18,11 @@ $bold-font: 700;
     max-width: 635px;
     min-height: 251px;
     font-weight: $bold-font;
-    // margin-top: 96px;
+
     &__heading {
         color: $blue-text-color;
         letter-spacing: -0.42px;
         font-size: 22px;
-        
     }
     &__info {
         color: $primary-text-color;
@@ -51,8 +50,6 @@ $bold-font: 700;
         min-height: 2px;
         background-color: $primary-text-color;
         opacity: 50%;
-  
-        
     }
     &__text {
         font-style: italic;
