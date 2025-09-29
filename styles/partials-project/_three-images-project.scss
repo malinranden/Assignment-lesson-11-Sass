@@ -1,0 +1,15 @@
+.three-images {
+    max-width: 100%;
+    width: 100%;
+    min-height: 400px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 132px;
+    // overflow: hidden;
+    &__images {
+        max-width: 350px;
+        width: 100%;
+        min-height: 400px;
+    }
+}

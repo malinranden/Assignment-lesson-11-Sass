@@ -1,0 +1,14 @@
+.section2text {
+    max-width: 1109px;
+    width: 100%;
+    min-height: 93px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+    &__text {
+        font-size: 16px;
+        opacity: 80%;
+        line-height: 26px;
+    }
+}

@@ -23,6 +23,8 @@ header {
 .nav {
     min-width: 200px;
     display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
     &__list {
         width: 150px;
         display: flex;
