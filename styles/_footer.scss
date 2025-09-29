@@ -18,8 +18,9 @@ footer {
 }
 
 .nav {
-    min-width: 200px;
+    min-width: 355px; 
     display: flex; 
+    justify-content: space-between;
     &__list {
         width: 150px;
         display: flex;
@@ -38,13 +39,22 @@ footer {
             text-decoration: underline;
         }
     &__logos-footer {
-        max-width: 95px;
+        // max-width: 95px;
+        // width: 100%;
+        // min-height: 15px;
+        // height: 100%;
+        // display: flex;
+        // align-items: center;
+        // justify-content: space-between;
+    }
+    }
+    &__container-logos-footer {
+        min-width: 95px;
         width: 100%;
         min-height: 15px;
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
-    }
     }
 }

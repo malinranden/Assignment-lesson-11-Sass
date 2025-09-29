@@ -1,10 +1,6 @@
 @use 'fonts';
 
 @import 'header';
-@import 'article1home';
-@import 'project-home';
-@import 'article2home';
-@import 'awards-home';
 @import 'footer';
 
 body { /* hur får jag det centrerat? */
@@ -15,6 +11,4 @@ body { /* hur får jag det centrerat? */
     font-family: fonts.$main-font;
     max-width: 1110px;
     width: 100%;
-    
 }
-// alternativ att få in font-family för hela projektet: antingen i * eller i body
