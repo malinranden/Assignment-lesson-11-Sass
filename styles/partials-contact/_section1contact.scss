@@ -1,0 +1,24 @@
+$bold-font: 700; 
+
+.text-form-container {
+    max-width: 475px;
+    width: 100%;
+    min-height: 252px;
+    height: 100%;
+    display: flex;
+}
+.text-container-contact {
+    &__h1 {
+        max-width: 475px;
+        min-height: 174px;
+        font-size: 40px;
+        line-height: 55px;
+        font-style: $bold-font;
+    }
+    &__p {
+        max-width: 445px;
+        min-height: 56px;
+        font-size: 18px;
+        opacity: 80%;
+    }
+}
