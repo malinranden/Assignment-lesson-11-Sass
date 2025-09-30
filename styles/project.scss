@@ -7,9 +7,8 @@
 @import 'partials-project/three-images-project';
 @import 'footer';
 
-body { /* hur får jag det centrerat? */
-    margin-right: 125px;
-    margin-left: 125px;
+body { 
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     font-family: fonts.$main-font;
