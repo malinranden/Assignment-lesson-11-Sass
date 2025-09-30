@@ -2,7 +2,8 @@
 
 @import 'header';
 @import 'partials-contact/section1contact';
-@import 'footer';
+@import 'partials-contact/map-contact'
+@import 'footer'; // why???
 
 body { /* hur får jag det centrerat? */
     margin-right: 125px;
