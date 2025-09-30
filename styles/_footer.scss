@@ -17,10 +17,12 @@ footer {
     display: flex;
 }
 
-.nav {
+.nav-footer {
     min-width: 355px; 
     display: flex; 
     justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
     &__list {
         width: 150px;
         display: flex;

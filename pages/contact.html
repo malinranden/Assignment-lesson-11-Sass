@@ -32,26 +32,40 @@
             <p class="text-container-contact__p">Our favorite brands are our friends! We help them to 
                 achieve their goals, they help us to stay sharp.</p>
         </div>
-        <div class="form-container-contact">
-            <form action="">
-
+        <!-- <div class="form-container-contact"> -->
+            <form class="form-container" action="">
+                <div class="form-container__div">
+                    <label class="form-container__name-label" for="name">Name</label>
+                    <input class="form-container__name-input" type="text" id="name">
+                </div>
+                <div class="form-container__div">
+                    <label class="form-container__email-label" for="email">Email</label>
+                    <input class="form-container__email-input" type="email" id="email">
+                </div>
+                <div class="form-container__div">
+                    <label class="form-container__message-label" for="message">Message</label>
+                    <input class="form-container__message-input" type="text" name="" id="message">
+                </div>
+                <div class="form-container__div">
+                    <button class="form-container__button">Submit</button>
+                </div>
             </form>
-        </div>
+        <!-- </div> -->
     </section>
 
     <div class="map"></div>
 
     <footer>
         <div class="logo-image">
-            <img src="/images/genesis-logo.png" alt="genesis-logo">
+            <a href="/pages/index.html"><img src="/images/genesis-logo.png" alt="genesis-logo"></a>
         </div>
-        <nav class="nav">
+        <nav class="nav-footer">
             <ul class="nav__list">
-                <li class="nav__li"><a class="nav__link" href="#">Projects</a></li>
-                <li class="nav__li"><a class="nav__link" href="#">Contact</a></li>
+                <li class="nav-footer__li"><a class="nav-footer__link" href="/pages/project.html">Projects</a></li>
+                <li class="nav-footer__li"><a class="nav-footer__link" href="/pages/contact.html">Contact</a></li>
             </ul>
-            <div class="nav__logos-footer">
-                <div class="nav__container-logos-footer">
+            <div class="nav-footer__logos-footer">
+                <div class="nav-footer__container-logos-footer">
                     <a href="#"><img src="/images/dribbble-logo.png" alt="dribbble-logo"></a>
                     <a href="#"><img src="/images/instagram-logo.png" alt="instagram-logo"></a>
                     <a href="#"><img src="/images/twitter-logo.png" alt="twitter-logo"></a>
